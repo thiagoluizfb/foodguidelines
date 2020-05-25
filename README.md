@@ -30,3 +30,7 @@ For those who is looking for a brief explanation of what is a food-based dietary
   * Fixed heading with carousel (3 pieces of information), no image;
   
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+# Mockup - Adobe Xd
+
+[Mockup I](https://xd.adobe.com/view/c2c3b264-af21-44c6-5dfb-b53a205c43c1-b4f2/)
