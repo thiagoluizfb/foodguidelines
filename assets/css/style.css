@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Roboto+Condensed&family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Roboto+Condensed&family=Roboto:wght@300;400;500;700&display=swap");
 
-body{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
 }
 
+.colorscheme {
+  background-color: #ee5f00;
+  color: #fafafa!important;
+}
 
 /* ------------------------------------------------Navbar*/
-#nav{
-    margin-right: 0px;
-    letter-spacing: 2px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    padding-right: 15px;
+#nav {
+  padding: 0px;
+  margin-right: 0px;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  padding-right: 15px;
 }
 
-#nav li{
-    padding-right: 25px;
+#nav li {
+  padding-right: 25px;
 }
 
-footer{
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: #4a4e4e;
-    margin: 0px;
+#nav li a {
+  color: #fafafa;
 }
 
-footer p{
-    padding: 40px;
-    margin: 0px;
-    text-align: center;
-    color: #fff;
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 }
-
