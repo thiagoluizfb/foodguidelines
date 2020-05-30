@@ -8,8 +8,11 @@
 }
 
 /* ------------------------------------------------General Settings*/
+header{
+    overflow: visible;
+}
 
-body { 
+section { 
   background: url("../images/table.basil.knife.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -36,13 +39,11 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 300;
     text-transform: uppercase;
 }
-footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
-}
 
+footer p{
+    margin: 0px;
+    padding: 15px 0;
+}
 
 /* ------------------------------------------------Navbar*/
 .fa-carrot{
@@ -77,7 +78,10 @@ footer {
 /* ------------------------------------------------Hero Div*/
 
 .maintitle{
+    background-color: rgb(0,0,0,0.5);
+    color: #fafafa;
     margin-top: 15px;
+    padding: 10px 0;
 }
 
 .herophotos{
@@ -88,3 +92,49 @@ footer {
 .container-wrapper{
    padding: 0 200px;
 }
+
+/* ------------------------------------------------What is it Div*/
+
+.charts-wrapper{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    
+  }
+
+.charts-vegetables{
+      height: 50%;
+      width: 50%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-top-left-radius: 100%;
+  }
+
+  .charts-fruits{
+    background: url("../images/fruits_1.jpg") no-repeat center center;
+      height: 50%;
+      width: 50%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-bottom-left-radius: 100%;
+  }
+
+  .charts-nuts{
+    background: url("../images/nuts_1.jpg") no-repeat center center;
+      height: 50%;
+      width: 50%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      border-top-right-radius: 100%;
+      right: 175px;
+      }
