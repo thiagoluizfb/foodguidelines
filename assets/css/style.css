@@ -107,34 +107,21 @@ footer p{
   }
 
 .charts-vegetables{
-      height: 50%;
-      width: 50%;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      border-top-left-radius: 100%;
+     border-top-left-radius: 100%;
+     height: 50%;
+    width: 50%;
   }
 
   .charts-fruits{
-    background: url("../images/fruits_1.jpg") no-repeat center center;
       height: 50%;
       width: 50%;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
       border-bottom-left-radius: 100%;
   }
 
   .charts-nuts{
-    background: url("../images/nuts_1.jpg") no-repeat center center;
       height: 50%;
       width: 50%;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
       border-top-right-radius: 100%;
-      right: 175px;
+      float:right;
+      bottom:50%;
       }
