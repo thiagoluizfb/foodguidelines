@@ -56,6 +56,10 @@ footer p{
     padding: 15px 0;
 }
 
+.padding-bottom{
+    padding-bottom: 25px;
+}
+
 /* ------------------------------------------------Navbar*/
 .fa-carrot{
     font-size: 30px;
@@ -90,7 +94,7 @@ footer p{
 
 .maintitle{
     color: #fafafa;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 30px;
     padding: 10px 0;
 }
@@ -178,7 +182,6 @@ footer p{
       width: 50%;
       border-top-right-radius: 100%;
       float:right;
-      bottom:50%;
       padding: 5px;
       }
 
@@ -187,6 +190,5 @@ footer p{
       width: 50%;
       border-bottom-right-radius: 100%;
       float:right;
-      bottom:50%;
       padding: 5px;
       }
