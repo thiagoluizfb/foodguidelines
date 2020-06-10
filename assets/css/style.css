@@ -115,6 +115,26 @@ footer p{
     margin: 0px!important;
 }
 
+.text-box-hero{
+    width: 30%;
+    left: 50%;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    font-size: 14px;
+}
+
+.text-box-hero a,.text-box-hero a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.text-box-hero p{
+    margin-left: 15px;
+    padding-bottom: 15px;
+}
+
+
 .img-fruits{
     height: 500px;
     width: 100%;
@@ -123,6 +143,7 @@ footer p{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position:relative;
   }
 
 .img-dairy{
