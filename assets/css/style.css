@@ -23,6 +23,7 @@ section {
 .section-wrapper{
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
+    position: relative
 }
 
 .hero-wrapper{
@@ -213,3 +214,43 @@ footer p{
       float:right;
       padding: 5px;
       }
+
+/* ------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+-----------------------------------------HISTORY HTML----------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------*/
+
+.history-maintitle{
+    padding:25px 15px;
+}
+
+
+.vertical-line{
+    border-left: solid #ee5f00 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.text-date{
+    margin-left: 40px;
+}
+
+.bottom-line{
+    border-bottom: solid #ee5f00 2px;
+    margin-right: 50%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.text-date p{
+    padding-top:20px;
+    width: 90%;
+    padding-bottom: 40px;
+    margin-bottom: 0px!important;
+}
+
+.fa-calendar-alt{
+    margin-right: 10px;
+}
