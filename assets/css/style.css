@@ -234,23 +234,26 @@ footer p{
 }
 
 .text-date{
-    margin-left: 40px;
+    display: inline;
 }
 
 .bottom-line{
     border-bottom: solid #ee5f00 2px;
-    margin-right: 50%;
-    margin-bottom: 0px;
+    margin: 0px;
     padding-bottom: 0px;
+    width: 125px;
 }
 
 .text-date p{
-    padding-top:20px;
+    padding: 10px 20px 40px 0px;
     width: 90%;
-    padding-bottom: 40px;
+    margin-left: 40px;
     margin-bottom: 0px!important;
+    text-align: justify;
 }
 
 .fa-calendar-alt{
-    margin-right: 10px;
+    margin-left: 25px;
+    padding: 15px;
+    font-size: 20px;
 }
