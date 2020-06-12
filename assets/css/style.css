@@ -362,4 +362,23 @@ footer p {
     width: 80%;
     height: 4px;
     background-color: #ee5f00;
+    margin-bottom: 10%;
+}
+
+.facts-heading-division{
+    margin: auto;
+    width: 50%;
+    border-bottom:solid  #ee5f00 2px;
+}
+
+#fruits p{
+    margin: 4% 5%;
+}
+
+#fruits ul{
+    margin: 4% 5%;
+}
+
+#fruits h3{
+    padding-top: 10%;
 }
