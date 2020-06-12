@@ -268,11 +268,13 @@ footer p {
 .left-history-box{
     width: 40%;
     padding-bottom: 20px;
+    border-right: solid 2px #ee5f00;
 }
 
 .right-history-box{
     width: 40%;
     padding-bottom: 20px;
+    border-left: solid 2px #ee5f00;
 }
 
 
@@ -289,7 +291,7 @@ footer p {
   width: 100px;
   border-radius: 50%;
   border: 5px solid #ee5f00;
-  margin-left: 5%;
+  margin-left: 2%;
   margin-top: 5%;
 }
 
