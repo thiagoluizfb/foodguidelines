@@ -27,13 +27,10 @@ section {
   position: relative;
 }
 
-.fluid{
-    padding: 0px!important;
-}
 
 .hero-wrapper {
   position: relative;
-}
+ }
 
 nav > a {
   margin-left: 15px;
@@ -105,7 +102,7 @@ footer p {
   color: #fafafa;
   margin-top: 25px;
   margin-bottom: 30px;
-  padding: 10px 0;
+  padding-bottom: 10px;
 }
 
 .maintitles {
@@ -119,8 +116,6 @@ footer p {
 }
 
 .herophotos {
-  max-height: 400px;
-  height: auto;
   margin: 0px !important;
 }
 
@@ -227,6 +222,11 @@ footer p {
 
 .fa-chart-line{
     font-size:200px;}
+
+.left{
+    float: right;
+}
+}
 
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
