@@ -27,9 +27,15 @@ section {
   position: relative;
 }
 
+.short-div{
+    border-bottom: solid #ee5f00 5px;
+    width: 80px;
+    margin: 30px auto 50px auto;
+}
 
 .hero-wrapper {
   position: relative;
+  padding-bottom: 50px;
  }
 
 nav > a {
@@ -101,8 +107,6 @@ footer p {
 .maintitle {
   color: #fafafa;
   margin-top: 25px;
-  margin-bottom: 30px;
-  padding-bottom: 10px;
 }
 
 .maintitles {
@@ -160,10 +164,6 @@ footer p {
   background-size: cover;
 }
 
-.container-fluid {
-  padding: 0px;
-}
-
 .img-nuts {
   height: 500px;
   width: 100%;
@@ -184,8 +184,7 @@ footer p {
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  border: 5px;
-  border-color: rgb(0, 0, 0);
+  margin:0px;
 }
 
 .charts-vegetables {
@@ -220,13 +219,18 @@ footer p {
 
 /* ------------------------------------------------Did you know?*/
 
-.fa-chart-line{
-    font-size:200px;}
+.chart-bar{
+    height: 200px;
+    width: 220px;
+}
+.fa-chart-bar{
+    font-size:200px;
+    }
 
 .left{
     float: right;
 }
-}
+
 
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
