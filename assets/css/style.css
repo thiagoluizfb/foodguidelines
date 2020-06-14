@@ -219,6 +219,11 @@ footer p {
   padding: 5px;
 }
 
+/* ------------------------------------------------Did you know?*/
+
+.fa-chart-line{
+    font-size:200px;}
+
 /* ------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
 -----------------------------------------HISTORY.HTML----------------------------------------
@@ -226,7 +231,8 @@ footer p {
 ---------------------------------------------------------------------------------------------*/
 
 .history-maintitle {
-  padding: 25px 15px;
+    padding: 3% 0%;
+    font-size: 30px;
 }
 
 /* ------------------------------------------------------------------------Mobile View----*/
@@ -265,25 +271,23 @@ footer p {
 
 /* ------------------------------------------------------------------------Desktop View----*/
 
-.left-history-box{
-    width: 40%;
-    padding-bottom: 20px;
-    border-right: solid 2px #ee5f00;
+.left-history-box {
+  width: 40%;
+  padding-bottom: 20px;
+  border-right: solid 2px #ee5f00;
 }
 
-.right-history-box{
-    width: 40%;
-    padding-bottom: 20px;
-    border-left: solid 2px #ee5f00;
+.right-history-box {
+  width: 40%;
+  padding-bottom: 20px;
+  border-left: solid 2px #ee5f00;
 }
-
-
 
 .left-history-box p {
-    margin-left: 20%;
-    text-align: right;
-    margin-top: 2%;
-    margin-right: 2%;
+  margin-left: 20%;
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 2%;
 }
 
 .date-history-right {
@@ -295,12 +299,11 @@ footer p {
   margin-top: 5%;
 }
 
-.date-history-right p{
-    margin: 25% 0%;
-    text-align: center;
-    font-size: 28px
+.date-history-right p {
+  margin: 25% 0%;
+  text-align: center;
+  font-size: 28px;
 }
-
 
 .date-history-left {
   height: 100px;
@@ -312,16 +315,20 @@ footer p {
   margin-right: 2%;
 }
 
-.date-history-left p{
-    margin: 25% 0%;
-    text-align: center;
-    font-size: 28px
+.date-history-left p {
+  margin: 25% 0%;
+  text-align: center;
+  font-size: 28px;
 }
 
-.right-history-box>p {
-    margin-right: 20%;
-    margin-top: 2%;
-    margin-left: 2%;
+.right-history-box > p {
+  margin-right: 20%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.history-end{
+    height: 20px;
 }
 
 /* ------------------------------------------------------------------------------------------
@@ -330,18 +337,23 @@ footer p {
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------*/
 
+.facts-maintitle{
+     padding: 3% 0%;
+}
 
-.facts-photo{
-    height: 300px!important;
-    padding: 0px!important; 
-} 
+.facts-photo {
+  height: 300px !important;
+  padding: 0px !important;
+}
 
-.facts-photo-wrapper{
+.facts-photo-wrapper {
   height: 240px;
   width: 240px;
   margin: auto;
-  margin-top: 5%;
   border-radius: 50%;
+}
+
+#fruits .facts-photo-wrapper {
   background: url("../images/fruits_1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -350,35 +362,63 @@ footer p {
   position: relative;
 }
 
-.facts-title h1{
-    vertical-align: auto;
-    font-size: 5em;
-    padding: 10% 0% 2% 0%;
-    margin-left: 0px;
-    margin-bottom: 1px;
+#dairy{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5% 0%;
 }
 
-.facts-title-division{
-    width: 80%;
-    height: 4px;
-    background-color: #ee5f00;
-    margin-bottom: 10%;
+#fruits, #nuts{
+    padding: 5% 0%;
 }
 
-.facts-heading-division{
-    margin: auto;
-    width: 50%;
-    border-bottom:solid  #ee5f00 2px;
+#dairy .facts-photo-wrapper {
+  background: url("../images/dairy_1.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
 }
 
-#fruits p{
-    margin: 4% 5%;
+#nuts .facts-photo-wrapper {
+  background: url("../images/nuts_in_sac.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
 }
 
-#fruits ul{
-    margin: 4% 5%;
+.facts-title h1 {
+  vertical-align: auto;
+  margin-left: 0px;
+  margin-bottom: 1px;
 }
 
-#fruits h3{
-    padding-top: 10%;
+.facts-title p{
+    margin-left: 0px!important;
+    padding-left: 0px!important;
+}
+.facts-title-division {
+  width: 80%;
+  height: 4px;
+  background-color: #ee5f00;
+}
+
+.facts-heading-division {
+  margin: auto;
+  width: 200px;
+  border-bottom: solid #ee5f00 2px;
+}
+
+#fruits p, #dairy p, #nuts p {
+  margin: 4% 10%;
+}
+
+#fruits ul, #dairy ul, #nuts ul {
+  margin: 4% 5%;
+}
+
+#fruits h3, #dairy h3, #nuts h3 {
+  padding-top: 10%;
 }
