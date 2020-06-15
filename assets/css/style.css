@@ -67,8 +67,30 @@ h6 {
 
 footer p {
   margin: 0px;
-  padding: 15px 0;
+  padding: 25px 0px;
 }
+
+footer h4 {
+    padding: 15px 0;
+    font-weight: 100;
+    margin: 0px;
+}
+
+
+footer a{
+    color: #fafafa;
+    margin: 0px;
+}
+
+footer a:hover, footer a:active {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.footer-icon{
+    margin: auto;
+}
+
 
 .padding-bottom {
   padding-bottom: 25px;
