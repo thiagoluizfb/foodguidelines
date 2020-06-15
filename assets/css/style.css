@@ -25,6 +25,7 @@ section {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 100;
   position: relative;
+  padding: 0px!important;
 }
 
 .short-div {
