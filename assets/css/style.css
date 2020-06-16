@@ -65,32 +65,40 @@ h6 {
   text-transform: uppercase;
 }
 
-footer p {
-  margin: 0px;
-  padding: 25px 0px;
-}
-
-footer h4 {
-    padding: 15px 0;
+.footer-title{
+    padding-top: 20px;
+    margin-bottom: 0px;
     font-weight: 100;
-    margin: 0px;
+    text-transform: uppercase;    
 }
 
+.footer-title{
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 100;
+    text-transform: uppercase;    
+}
 
-footer a{
+.footer-links li a i{
+    padding-top: 8px;
+    margin: 0px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 15px;
     color: #fafafa;
-    margin: 0px;
 }
 
-footer a:hover, footer a:active {
-  color: #fafafa;
+.footer-title a, .footer-title a:hover{
   text-decoration: none;
+  color: #fafafa;
 }
 
-.footer-icon{
-    margin: auto;
+.footer-links li a i:hover, .footer-links li a i:active {
+  text-decoration: none;
+  background-color: #fafafa;
+  color: #ee5f00;
 }
-
 
 .padding-bottom {
   padding-bottom: 25px;
