@@ -1,6 +1,5 @@
-# The food-based dietary guidelines
+# [The food-based dietary guidelines](https://thiagoluizfb.github.io/milestoneproject_I/)
 
-[Check the live project here](https://thiagoluizfb.github.io/milestoneproject_I/)
 
 * The main purpose of this page is to provide a brief information regarding the dietary guidelines, it's history and outcomes.
 * The webpage will also have a section to explore the main groups established as essentials for a healthy diet.
