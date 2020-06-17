@@ -332,8 +332,7 @@ h6 {
   border-left: solid 2px #ee5f00;
 }
 
-.left-history-box p {
-  margin-left: 20%;
+.left-history-box  p {
   text-align: right;
   margin-top: 2%;
   margin-right: 2%;
@@ -371,7 +370,6 @@ h6 {
 }
 
 .right-history-box > p {
-  margin-right: 20%;
   margin-top: 2%;
   margin-left: 2%;
 }
