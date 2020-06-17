@@ -319,23 +319,29 @@ h6 {
   font-size: 20px;
 }
 
+
 /* ------------------------------------------------------------------------Desktop View----*/
 
 .left-history-box {
   width: 40%;
   padding-bottom: 20px;
   border-right: solid 2px #ee5f00;
+  margin-top: 50px;
 }
 
 .right-history-box {
   width: 40%;
   padding-bottom: 20px;
   border-left: solid 2px #ee5f00;
+  margin-top: 50px;
+}
+
+.right-history-box a, .right-history-box a:hover, .right-history-box a:active{
+    color:#fafafa;
 }
 
 .left-history-box  p {
   text-align: right;
-  margin-top: 2%;
   margin-right: 2%;
 }
 
@@ -345,14 +351,12 @@ h6 {
   border-radius: 50%;
   border: 5px solid #ee5f00;
   margin-left: 2%;
-  margin-top: 5%;
 }
 
 .date-history-right p {
   margin: 25% 0%;
   text-align: center;
   font-size: 28px;
-  text-indent: 0px!important;
 }
 
 .date-history-left {
@@ -361,7 +365,6 @@ h6 {
   border-radius: 50%;
   border: 5px solid #ee5f00;
   float: right;
-  margin-top: 5%;
   margin-right: 2%;
 }
 
