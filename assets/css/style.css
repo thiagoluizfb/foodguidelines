@@ -180,7 +180,7 @@ h6 {
 .img-fruits {
   height: 500px;
   width: 100%;
-  background: url("../images/fruits_1.jpg") no-repeat center center;
+  background: url("../images/fruits_one.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -191,7 +191,7 @@ h6 {
 .img-dairy {
   height: 500px;
   width: 100%;
-  background: url("../images/dairy_1.jpg") no-repeat center center;
+  background: url("../images/dairy_one.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -397,7 +397,7 @@ h6 {
 }
 
 #fruits .facts-photo-wrapper {
-  background: url("../images/fruits_1.jpg") no-repeat center center;
+  background: url("../images/fruits_one.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -417,7 +417,7 @@ h6 {
 }
 
 #dairy .facts-photo-wrapper {
-  background: url("../images/dairy_1.jpg") no-repeat center center;
+  background: url("../images/dairy_one.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
