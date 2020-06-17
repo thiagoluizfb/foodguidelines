@@ -31,28 +31,28 @@ For those who is looking for a brief explanation of what is a food-based dietary
 
 # Features
 
-## Home page
+Carousels, toggler button for smaller screens and responsive design were written using Bootstrap library.
+
+- ## Home page
   * Hero-photo (carousel with main food group photos);
   * Section with carousel with images and a short paragraph.
 
-## History page
+- ## History page
   * A type of timeline for mobile different from other screens.
 
-## Facts page
+- ## Facts page
   * More information about the food groups.
-  
-* Carousels, toggler button for smaller screens and responsive design were written using Bootstrap library.
   
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-## Technologies Used
+# Technologies Used
 
-### Languages Used
+## Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5);
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
 
-### Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.5:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - Bootstrap was used to assist with the styling of the website. Carousels and navbar uses JavaScript to allow the interaction and responsiveness.
@@ -67,21 +67,23 @@ For those who is looking for a brief explanation of what is a food-based dietary
 1. [Adobe Xd:](https://www.adobe.com/products/xd.html)
     - Adobe Xd was used to create the initial [wireframe](https://xd.adobe.com/view/c2c3b264-af21-44c6-5dfb-b53a205c43c1-b4f2/) for this project
 
+---------------------------------------------------------------------------------------------------------------------------------------
 
-## Testing
+# Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-### Further Testing
+## Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge browsers;
 -   The website was viewed on a variety of devices such as Desktop in multiple screen sizes, iPad, iPad Pro, Samsumg Laptop, Moto G4, Galaxy S5, Xiaomi M3, Nokia 6, Pixel 2, Pixel 2XL, iPhone 5/SE, iPhone 6/7/8+Plus models and iPhoneX.
 
+---------------------------------------------------------------------------------------------------------------------------------------
 
-### Credits
+# Credits
 
 -   The main photos were downloaded from the free stock photos libary [Pexels](https://pexels.com);
 
@@ -89,8 +91,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   This ReadMe file was based on a sample available on [Code Institute Solutions repositories](https://github.com/Code-Institute-Solutions)
 
+---------------------------------------------------------------------------------------------------------------------------------------- 
 
-### Acknowledgements
+# Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 
