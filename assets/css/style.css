@@ -189,20 +189,31 @@ h6 {
   position: relative;
 }
 
-.img-dairy {
+.img-vegetables {
   height: 500px;
   width: 100%;
-  background: url("../images/dairy_one.jpg") no-repeat center center;
+  background: url("../images/vegetables_one.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.img-protein {
+  height: 500px;
+  width: 100%;
+  background: url("../images/protein_one.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.img-nuts {
+.img-grains {
   height: 500px;
   width: 100%;
-  background: url("../images/nuts_in_sac.jpg") no-repeat center center;
+  background: url("../images/grains_one.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -238,7 +249,7 @@ h6 {
   padding: 1px;
 }
 
-.charts-nuts {
+.charts-grains {
   height: 50%;
   width: 50%;
   border-top-right-radius: 100%;
@@ -419,7 +430,7 @@ h6 {
 }
 
 #fruits,
-#nuts {
+#grains {
   padding: 5% 0%;
 }
 
@@ -432,8 +443,8 @@ h6 {
   position: relative;
 }
 
-#nuts .facts-photo-wrapper {
-  background: url("../images/nuts_in_sac.jpg") no-repeat center center;
+#grains .facts-photo-wrapper {
+  background: url("../images/grains_one.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -465,19 +476,19 @@ h6 {
 
 #fruits p,
 #dairy p,
-#nuts p {
+#grains p {
   margin: 4% 10%;
 }
 
 #fruits ul,
 #dairy ul,
-#nuts ul {
+#grains ul {
   margin: 4% 5%;
 }
 
 #fruits h3,
 #dairy h3,
-#nuts h3 {
+#grains h3 {
   padding-top: 10%;
 }
 
