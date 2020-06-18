@@ -91,12 +91,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   This ReadMe file was based on a sample available on [Code Institute Solutions repositories](https://github.com/Code-Institute-Solutions)
 
+-   Quick information of "how to" was promplty found on [W3Schools](https://www.w3schools.com/)
+
 ---------------------------------------------------------------------------------------------------------------------------------------- 
 
 # Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 
--   Code Institute video classes were exhaustedly used to refresh the learnt content.
+-   Code Institute video classes with its helpful content.
 
--   Quick information of "how to" was promplty found on [W3Schools](https://www.w3schools.com/)
+-   My wife, Cristina, who supported me pantiently in the long hours spent coding.

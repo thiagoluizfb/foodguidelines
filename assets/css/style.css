@@ -305,7 +305,7 @@ h6 {
   width: 125px;
 }
 
-.text-date > p {
+.text-date > p, .text-date > ol, .text-date > ul{
   padding: 10px 40px 10px 0px!important;
   width: 90%;
   margin-left: 40px;
